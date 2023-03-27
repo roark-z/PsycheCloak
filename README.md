@@ -15,6 +15,13 @@ Pipeline Illustration
 Model Finetuning
 ![Model creation](illustrations/finetune-diagram.png)
 
+## Sample Outputs
+
+Following is an anonymization on a synthetic interview question unseen in the training set.
+![Sample Output](illustrations/sample_output_1.png)
+
+Following is the same interview question with some personal details modified.
+![Modified Sample Output](illustrations/sample_output_2.png)
 
 ## Folder description
 
