@@ -9,7 +9,7 @@ Please feel free to contribute to our code repository or provide feedback on our
 
 ## Folder description
 
-`trained_models` contains the trained models, finetuned from [alpaca-lora][1] as the base model, which reproduces the [Stanford's Alpaca][2] results using low-rank adaptation (LoRA). To run our model on `alpaca-lora`, please place our pretrained model in the root directory and specify ` --lora_weights='psycloak_11_1m4_31_V1'` as needed.
+`trained_models` contains the trained models, finetuned from [alpaca-lora][1] as the base model, which reproduces the [Stanford's Alpaca][2] results using low-rank adaptation (LoRA). To run our model on `alpaca-lora`, please place our pretrained model in the root directory and specify ` --lora_weights='psycloak_11_1m4_31_V1'`(Training LoRA weights from scratch) or ` --lora_weights='psycloak_11_1m4_31_V2'`(from pretrained alpaca-lora) as needed.
 
 `training_data` contains various training sets used for finetuning the language model. In our demo, we use `PsycheCloak_data_31.json` as the training set.
 
