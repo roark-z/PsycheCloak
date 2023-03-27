@@ -31,6 +31,8 @@ Following is the same interview question with some personal details modified.
 
 `prompts` contains the prompts fed to the ChatGPT API to generate synthetic psychological interviews, and to anonymize them.
 
+`data` contains the synthetic identity data used to create the set of prompts for ChatGPT.
+
 [1]: <https://github.com/tloen/alpaca-lora> "Alpaca-Lora"
 [2]: <https://crfm.stanford.edu/2023/03/13/alpaca.html> "Stanford Alpaca"
 
