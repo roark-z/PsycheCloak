@@ -7,6 +7,15 @@ Our code repository contains the source code and documentation for PsycheCloak, 
 Please feel free to contribute to our code repository or provide feedback on our model. Thank you for your interest in PsycheCloak!
 
 
+## Concept Illustration
+
+Pipeline Illustration
+![Pipeline illustration](illustrations/diagram1.png)
+
+Model Finetuning
+![Model creation](illustrations/finetune-diagram.png)
+
+
 ## Folder description
 
 `trained_models` contains the trained models, finetuned from [alpaca-lora][1] as the base model, which reproduces the [Stanford's Alpaca][2] results using low-rank adaptation (LoRA). To run our model on `alpaca-lora`, please place our pretrained model in the root directory and specify ` --lora_weights='psycloak_11_1m4_31_V1'`(Training LoRA weights from scratch) or ` --lora_weights='psycloak_11_1m4_31_V2'`(from pretrained alpaca-lora) as needed.
@@ -15,4 +24,5 @@ Please feel free to contribute to our code repository or provide feedback on our
 
 [1]: <https://github.com/tloen/alpaca-lora> "Alpaca-Lora"
 [2]: <https://crfm.stanford.edu/2023/03/13/alpaca.html> "Stanford Alpaca"
+
 
