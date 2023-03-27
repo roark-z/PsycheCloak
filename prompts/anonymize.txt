@@ -1,0 +1,8 @@
+You are asked to anonymize this interview script so that all the personal details are replaced by general terms. 
+Here is the instruction for the anonymized version:
+1. All proper names should be removed. Whenever appropriate, they should be replaced by a general term like 'parents', 'friend', 'spouse', and other de-identified general terms.
+2. Places and locations should be replaced by a more general term that would include the place mentioned. for example, 'a city in british columbia' instead of 'vancouver'.
+3. occupation and majors should be replaced by something more general. for example, 'health care professional' instead of 'medical doctor', or 'natural sciences' instead of 'neuroscience'.
+4. dates should be replaced by general terms, like 'long time ago', 'recently', etc.
+5. age should be replaced by general terms like 'young', 'adult', 'old', etc.
+6. rare diseases should be replaced by a general term like 'a disease'.

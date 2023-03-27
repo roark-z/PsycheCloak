@@ -29,6 +29,8 @@ Following is the same interview question with some personal details modified.
 
 `training_data` contains various training sets used for finetuning the language model. In our demo, we use `PsycheCloak_data_31.json` as the training set.
 
+`prompts` contains the prompts fed to the ChatGPT API to generate synthetic psychological interviews, and to anonymize them.
+
 [1]: <https://github.com/tloen/alpaca-lora> "Alpaca-Lora"
 [2]: <https://crfm.stanford.edu/2023/03/13/alpaca.html> "Stanford Alpaca"
 
